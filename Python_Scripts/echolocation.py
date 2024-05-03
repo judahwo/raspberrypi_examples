@@ -4,7 +4,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 trigPin = 23
-echoPin = 24
+echoPin = 24 
 
 GPIO.setup(trigPin, GPIO.OUT)
 GPIO.setup(echoPin, GPIO.IN)
